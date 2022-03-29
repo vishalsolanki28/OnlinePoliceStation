@@ -1,0 +1,133 @@
+body{
+//  background: #9cecfb; 
+//    background: -webkit-linear-gradient(to left, #9cecfb, #4e95b9, #2165d3); 
+//   background: linear-gradient(to left, #9cecfb, #4e95b9,  #2165d3); 
+background: #bdc3c7; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+width: 100%; 
+font-weight: 500;
+// background-color: rgba(2, 54, 39, 0.801);
+// opacity: 60%;
+
+}
+.navbar> ul,.navbar>.navbar-a>ul,.navbar>.navbar-logo>ul{
+    list-style: none;
+
+display: flex;
+ 
+}
+.navbar>ul>li{
+    padding:25px; 
+    text-transform: uppercase;
+   }
+
+   .navbar-a>ul>li{
+    padding:25px; 
+    text-transform: uppercase;
+    
+}
+.navbar-a>ul>li>a{
+    
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+}
+
+   .navbar>ul>li>a{
+       color: white;
+       transition: all 0.2s ease 0s;
+       list-style: none;
+       font-style: normal;
+       text-decoration: none;
+   }
+.navbar>ul>li>a:hover{
+    
+    background-color: rgb(113, 215, 255);
+    padding: 10px 15px;
+    border-radius: 2cm;
+}
+.navbar>.navbar-logo{
+
+    background-image: url(https://www.police.rajasthan.gov.in/images/ashok_chakra.png);    
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 90px;
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.login{
+    border: 3px solid #2f84c6; ;
+    padding: 10px 25px 10px 25px;
+    border-radius: 0.2cm;
+    background: #2f84c6;
+    color: white;
+    transition: all 0.5s ease-out 0s;
+    
+
+}
+.login:hover,.signup:hover{
+    color:  rgb(113, 215, 255);
+    border:3px solid springgreen ;   
+}
+
+.signup{
+    color: #2f84c6;
+    border: 3px solid #2f84c6;
+    padding: 10px 25px 10px 25px;
+    border-radius: 0.2cm;
+    transition: all 0.5s ease-out 0s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  background-color:black;
+//  background-image:
+//  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+//  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+//  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+//  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+//  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+//  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
